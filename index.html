@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9524f1886d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#article">Article</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>Anusha Patil</h2>
+                <h1>
+                    <span>I'm a </span>
+                     <div class="message">
+                      <div class="word1">FRONTDEV</div>
+                      <div class="word2">Web Designer</div>
+                      <div class="word3">Data Analyst</div>
+                    </div>
+                  </h1>
+                  <div class="icon">
+                    <ul>
+                      <li><a href="https://www.instagram.com/_patil_anusha/">Instagram</a></li>
+                      <li><a href="https://medium.com/@anushapatil2208">Medium</a></li>
+                      <li><a href="mailto:anushapatil2208@gmail.com">Email</a></li>
+                      <li><a href="https://www.linkedin.com/in/anusha-patil-167b79162/">LinkedIn</a></li>
+                      <li><a href="https://github.com/ANUSHA2208">Github</a></li>
+                      <li>
+                        <p>👋</p>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <a><img src="./pictures/WhatsApp Image 2022-10-03 at 9.17.04 PM.jpeg"></a>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A forward-looking person with a year’s experience in web designing and front-end development of web apps.
+                         I am an enthusiastic, relentless learner who is always ready to take initiative and go the extra mile.
+                         Skilled at management with a solution oriented perspective.</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <Li><span>UI/UX</span><br>Designing Web & APP interface</Li>
+                            <Li><span>FrontEnd</span><br>Building Websites</Li>
+                            <Li><span>Data Analyst</span><br>EDA</Li>
+                            <Li><span>Content Writer</span><br>articles/stories on Tech</Li>
+                            <Li><span>SQL</span><br>Database Managment</Li>
+                            <Li><span>OOP</span><br>Object oriented programming in C++</Li>
+                            <Li><span>DSA</span><br>Logic Building</Li>
+
+                        </ul>
+                    </div>
+                
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <Li><span>Schooling  (2008 - 18)</span><br>JSS Central School</Li>
+                            <Li><span>Senior Secondary Education (2018 - 20)</span><br>PRISM Science College</Li>
+                            <Li><span>Degree (2020 - Current)</span><br>KLE Technological University</Li>
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="experience">
+                              <ul>
+                                  <Li><span>Catalysts (2022 - Present)</span><br>Web designer & Frontend development</Li>
+                                  <Li><span>Packetfanatic (2022 - Present)</span><br>UX/UI Designer</Li>
+                              </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./pictures/food.png">
+                    <div class="layer">
+                        <h3>Food App</h3>
+                        <P>Resturant website design</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./pictures/nike.png">
+                    <div class="layer">
+                        <h3>Nike</h3>
+                        <P>Nike landing page design</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./pictures/oops.png">
+                    <div class="layer">
+                        <h3>Myntra APP</h3>
+                        <P>Myntra app using C++</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./pictures/todo.png">
+                    <div class="layer">
+                        <h3>TODO APP</h3>
+                        <P>Simple TODO Website</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                
+                <div class="work">
+                    <img src="./pictures/google.png">
+                    <div class="layer">
+                        <h3>Google Store Design</h3>
+                        <P>Cloned Google store Design</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                
+                <div class="work">
+                    <img src="./pictures/GURUKUL.png">
+                    <div class="layer">
+                        <h3>Gurukul Website</h3>
+                        <P>Spritual Website development</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./pictures/app.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <P>Weather app design</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./pictures/singlepg.png">
+                    <div class="layer">
+                        <h3>Simple Portfolio</h3>
+                        <P>Single page Portfolio</P>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#contact" class="btn1">See more</a>
+        </div>
+    </div>
+
+
+    <div id="article">
+        <div class="container">
+            <h1 class="sub-title">My Articles</h1>
+            <div class="article-list">
+                <div class="back">
+                <div class="art">
+                    <img src="./pictures/1.png">
+                    <div class="infos">
+                        <h3>Browser War : Chrome vs Brave</h3>
+                        <P>Let’s start this debate between the two browsers...</P><br>
+                        <hr>
+                        <div class="date">
+                        <h4>Oct 02 , 2022</h4> 
+                        </div>
+                        <div class="share">
+                        <a href="https://medium.com/catalysts-reachout/browser-war-chrome-vs-brave-9c13da78d887"><i class="fa-solid fa-share-nodes"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="back">
+                    <div class="art">
+                        <img src="./pictures/2.gif">
+                        <div class="infos">
+                            <h3>Best UI/UX Design Tools</h3>
+                            <P>If you are a UI/UX designer or beginner and looking for the best tools ...</P><br>
+                            <hr>
+                            <div class="date">
+                            <h4>Sep 19 , 2022</h4> 
+                            </div>
+                            <div class="share">
+                            <a href="https://medium.com/catalysts-reachout/best-ui-ux-design-tools-c964237953ab"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="back">
+                        <div class="art">
+                            <img src="./pictures/3.jpeg">
+                            <div class="infos">
+                                <h3>React vs Angular</h3>
+                                <P>Angular or React? What is a better choice for web development? ...</P><br>
+                                <hr>
+                                <div class="date">
+                                <h4>Sep 15 , 2022</h4> 
+                                </div>
+                                <div class="share">
+                                <a href="https://medium.com/catalysts-reachout/react-vs-angular-5497316da15d"><i class="fa-solid fa-share-nodes"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+    
+                        <div class="back">
+                            <div class="art">
+                                <img src="./pictures/4.png">
+                                <div class="infos">
+                                    <h3>Artificial Intelligence Is Far More Dangerous Than Nukes !!</h3>
+                                    <P>AI has become an increasingly powerful...</P><br>
+                                    <hr>
+                                    <div class="date">
+                                    <h4>Sep 6 , 2022</h4> 
+                                    </div>
+                                    <div class="share">
+                                    <a href="https://medium.com/catalysts-reachout/artificial-intelligence-is-far-more-dangerous-than-nukes-7fc82f514762"><i class="fa-solid fa-share-nodes"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+        
+                
+              
+            </div>
+            <a href="https://medium.com/@anushapatil2208" class="btn1">See more</a>
+           </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-phone"></i>&ensp;&ensp;8971232721</p>
+                    <p><i class="fa-solid fa-envelope"></i>&ensp;&ensp;anushapatil2208@gmail.com</p><br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.5142308595964!2d74.9855180147699!3d15.456747889261822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8cd1a405348ef%3A0xff93536d5115cb01!2sSilver%20Orchard!5e0!3m2!1sen!2sin!4v1665302882814!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="./pictures/CV.pdf" download class="btn1 btn2" >Download CV</a>
+                </div>
+
+               <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
