@@ -340,6 +340,10 @@ nav ul #menu
 		flex-basis: 100%;
 	}
 
+  .sub-title i
+  {
+    color: #fff;
+  }
 }
 
 @media only screen and (max-width: 600px) and (min-width:300px)
@@ -454,7 +458,10 @@ nav ul #menu
 	{
 		flex-basis: 100%;
 	}
-
+  .sub-title i
+  {
+    color: #fff;
+  }
 
 }
 
