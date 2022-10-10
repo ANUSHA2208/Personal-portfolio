@@ -8,9 +8,9 @@
 html
 {
   font-family: 'Montserrat', sans-serif;
-  background-color: #2c2c2d;
-  
+  background-color: #2c2c2d;  
 }
+
 #header
 {
     width: 100%;
@@ -641,7 +641,7 @@ margin: 10px 0;
     height: 100%;
 }
 
-.btn1
+/* .btn1
 {
     display: block;
     margin: 50px auto;
@@ -657,7 +657,7 @@ margin: 10px 0;
 .btn1:hover{
     background-color:#ffc425;
     color: white;
-}
+} */
 
 /* .btn1:active
 {
@@ -683,12 +683,12 @@ margin: 10px 0;
 }
 
 
-.btn1.btn2
+/* .btn1.btn2
 {
 	display: inline-block;
-	/* background-color: white; */
+	background-color: white;
   color: white;
-}
+} */
 
 iframe
 {
@@ -696,10 +696,10 @@ iframe
   height: 50%;
 }
 
-.btn1.btn2:hover
+/* .btn1.btn2:hover
 {
   color: white;
-}
+} */
 
 .contact-right form
 {
@@ -716,11 +716,11 @@ form input,form textarea
 	padding:15px;
 	margin: 15px 0;
 	color: #000;
-    font-size: 18px;
+  font-size: 18px;
 	border-radius: 6px;
 }
 
-form .btn2
+/* form .btn2
 {
 	padding: 14px 60px;
 	font-size: 18px;
@@ -739,7 +739,7 @@ form .btn1.btn2:hover
 {
    background-color: #ffc425;
    color: white;
-}
+} */
 
 
 /* .about-col-1 img:hover {
@@ -765,7 +765,7 @@ form .btn1.btn2:hover
 
 .art
 {
-    border-radius:10px ;
+    border-radius:c8px;
     position: relative;
     overflow: hidden;
 }
@@ -775,8 +775,8 @@ form .btn1.btn2:hover
     width: 100%;
     height: 150px;
     /* border-radius: 10px; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     display: block;
     transition:transform 0.5s;
 }
@@ -787,8 +787,9 @@ form .btn1.btn2:hover
   width: 100%;
   height: 270px;
   background-color: #fff;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  border-radius: 15px;
 }
 
 .infos h3
@@ -832,3 +833,231 @@ form .btn1.btn2:hover
 {
   color:  #929292;
 }
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: block;
+    margin: 50px auto;
+    width:fit-content;
+    border: 1.5px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.5s;
+
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  border-radius: 6px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+.btn
+{
+  margin-top: 50px;
+}
+
+/* CSS 1 */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffc425;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57 span
+{
+  margin-top: 10px;
+}
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+
+/*footer*/
+
+.footer #b{
+	width:50px;
+	height:50px;
+	border: #727172 5px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 25px;
+    text-align: center;
+}
+.footer #b:hover{
+	width:35px;
+	height:35px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+  width: 100%;
+  height: 2em;
+  overflow:hidden;
+  margin:0 auto;
+	-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 8em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+  height:100%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #3A3A3A;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:150px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+
+
+
+.footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+ }
+ .footer-icons
+ {
+  margin-top: 75px;
+ } 
+
+ #b i
+ {
+  color: #fff;
+  margin-top: 8px;
+ }
